@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customer = "Alice";
+let quantity = 5;
+let itemType = "Raisin Bagel";
+let itemPrice = 4.00;
+let grandTotal = 20;
+let orderSummary = customer + " bought " + quantity + " " + itemType + "(s) for $" + itemPrice + " each, for a total cost of "  + grandTotal + ".";
 
-console.log(d);
+console.log(orderSummary);
